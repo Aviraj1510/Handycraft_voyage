@@ -634,6 +634,7 @@ p.reveal-word, div.reveal-word{ display:block; }
 }
 .nav-brand{ display:flex; align-items:center; gap:10px; color: var(--ink); }
 .brand-mark{ color: var(--rust); flex-shrink:0; }
+.brand-mark img, .footer-logo-circle img { border-radius: 50%; object-fit: cover; }
 .brand-text{
   font-family: var(--font-display);
   font-weight:600;
