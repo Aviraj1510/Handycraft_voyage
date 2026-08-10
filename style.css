@@ -1424,3 +1424,63 @@ body::after{
 @media (max-width: 600px){
   body::before{ opacity: 0.035; }
 }
+
+/* ---- Category Tabs ---- */
+.category-tabs-wrapper {
+  margin: 30px 0;
+  display: flex;
+  overflow-x: auto;
+  gap: 12px;
+  padding-bottom: 12px;
+  scrollbar-width: thin;
+}
+.category-tab {
+  background: var(--linen-warm);
+  border: 1px solid var(--sage-light);
+  border-radius: 30px;
+  padding: 8px 16px;
+  font-family: var(--font-body);
+  font-size: 14px;
+  color: var(--ink);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+.category-tab:hover {
+  background: var(--sage-light);
+}
+.category-tab.active {
+  background: var(--rust);
+  color: var(--linen);
+  border-color: var(--rust);
+}
+.dynamic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+}
+.dynamic-card {
+  background: var(--linen);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+.dynamic-card:hover {
+  transform: translateY(-4px);
+}
+.dynamic-card img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  display: block;
+}
+.dynamic-card-info {
+  padding: 16px;
+}
+.dynamic-card-info h3 {
+  margin: 0;
+  font-size: 16px;
+  font-family: var(--font-display);
+}
+
