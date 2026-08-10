@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shop the Collection — HandyCraft Voyage</title>
+<meta name="description" content="Browse handmade embroidery hoops, lippan art, dreamcatchers, and custom gifts from HandyCraft Voyage. DM to order.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Karla:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== SCROLL PROGRESS ===== -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- ===== ANNOUNCEMENT BAR ===== -->
+<div class="announce-bar">
+  <p>✨ Handmade to order, ships across India — DM to enquire on any piece</p>
+</div>
+
+<!-- ===== NAV ===== -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 40 40" width="34" height="34">
+          <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="1.3" stroke-dasharray="2 3.5"/>
+          <path d="M13 22c2-6 5-9 7-9s5 3 7 9" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+          <circle cx="20" cy="14" r="2.2" fill="currentColor"/>
+        </svg>
+      </span>
+      <span class="brand-text">HandyCraft<br>Voyage</span>
+    </a>
+    <nav class="nav-links">
+      <a href="index.html#story">Our Story</a>
+      <a href="collection.html" class="active-link">Collection</a>
+      <a href="index.html#route">The Route</a>
+      <a href="https://www.instagram.com/handycraft_voyage" target="_blank" rel="noopener" class="nav-cta">Get in Touch</a>
+    </nav>
+    <div class="nav-right">
+      <button class="cart-toggle" id="cartToggle" aria-label="Open cart">
+        <svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.6">
+          <path d="M3 4h2l2.4 12.4a2 2 0 0 0 2 1.6h7.6a2 2 0 0 0 2-1.6L21 8H6"/>
+          <circle cx="10" cy="21" r="1.4" fill="currentColor" stroke="none"/>
+          <circle cx="17" cy="21" r="1.4" fill="currentColor" stroke="none"/>
+        </svg>
+        <span class="cart-count" id="cartCount">0</span>
+      </button>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ===== SHOP HEADER ===== -->
+  <section class="shop-header">
+    <div class="section-inner">
+      <p class="eyebrow">The Full Collection</p>
+      <h1 class="shop-title">Every piece, made to order</h1>
+      <p class="shop-sub">Nothing here is mass-produced or kept in bulk stock — each order is stitched, shaped, or framed by hand once you confirm it. Tap "Enquire to Purchase" on anything you like and we'll take it from there over DM.</p>
+    </div>
+  </section>
+
+  <!-- ===== FEATURED HOOPS GALLERY ===== -->
+  <section class="hoop-gallery-section">
+    <div class="section-inner">
+      <p class="eyebrow">From Our Hoop</p>
+      <h2 class="section-title">Recently Made, Recently Loved</h2>
+      <div class="hoop-shop-grid">
+
+        <article class="hoop-shop-card">
+          <div class="pearl-trim" aria-hidden="true"></div>
+          <div class="hoop-photo">
+            <img src="images/hoop-vikrant-sonam.jpg" alt="Personalised wedding date embroidery hoop with red rose wreath, names Vikrant &amp; Sonam" loading="lazy">
+            <span class="badge-tag">Handmade</span>
+          </div>
+          <div class="hoop-info">
+            <p class="craft-tag">Couple &amp; Wedding Hoop</p>
+            <h3>Rose Wreath Date Hoop</h3>
+            <div class="shop-card-footer">
+              <span class="craft-price">Price on request</span>
+              <button class="btn btn-primary btn-add-cart" data-product="Rose Wreath Date Hoop">Add to Cart</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="hoop-shop-card">
+          <div class="pearl-trim" aria-hidden="true"></div>
+          <div class="hoop-photo">
+            <img src="images/hoop-bride-groom-double.jpg" alt="Customisable bride and groom calendar embroidered double hoop with tassels" loading="lazy">
+            <span class="badge-tag">Handmade</span>
+          </div>
+          <div class="hoop-info">
+            <p class="craft-tag">Couple &amp; Wedding Hoop</p>
+            <h3>Bride &amp; Groom Double Hoop</h3>
+            <div class="shop-card-footer">
+              <span class="craft-price">Price on request</span>
+              <button class="btn btn-primary btn-add-cart" data-product="Bride & Groom Double Hoop">Add to Cart</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="hoop-shop-card">
+          <div class="pearl-trim" aria-hidden="true"></div>
+          <div class="hoop-photo">
+            <img src="images/hoop-dhwani-dhruvil-1.jpg" alt="Wedding calendar embroidery hoop with bride and groom fabric figures and floral crown" loading="lazy">
+            <span class="badge-tag">Handmade</span>
+          </div>
+          <div class="hoop-info">
+            <p class="craft-tag">Couple &amp; Wedding Hoop</p>
+            <h3>Bride &amp; Groom Calendar Hoop</h3>
+            <div class="shop-card-footer">
+              <span class="craft-price">Price on request</span>
+              <button class="btn btn-primary btn-add-cart" data-product="Bride & Groom Calendar Hoop">Add to Cart</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="hoop-shop-card">
+          <div class="pearl-trim" aria-hidden="true"></div>
+          <div class="hoop-photo">
+            <img src="images/hoop-led-frame.jpg" alt="Embroidery hoop mounted in a backlit LED frame" loading="lazy">
+            <span class="badge-tag">Handmade</span>
+          </div>
+          <div class="hoop-info">
+            <p class="craft-tag">Framed / Home Decor</p>
+            <h3>Embroidery Hoop in LED Frame</h3>
+            <div class="shop-card-footer">
+              <span class="craft-price">Price on request</span>
+              <button class="btn btn-primary btn-add-cart" data-product="Embroidery Hoop in LED Frame">Add to Cart</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="hoop-shop-card">
+          <div class="pearl-trim" aria-hidden="true"></div>
+          <div class="hoop-photo">
+            <img src="images/dreamcatcher-evil-eye-1.jpg" alt="Handmade crochet evil eye dreamcatcher with blue feathers" loading="lazy">
+            <span class="badge-tag">Handmade</span>
+          </div>
+          <div class="hoop-info">
+            <p class="craft-tag">Home Decor</p>
+            <h3>Evil Eye Dreamcatcher</h3>
+            <div class="shop-card-footer">
+              <span class="craft-price">Price on request</span>
+              <button class="btn btn-primary btn-add-cart" data-product="Evil Eye Dreamcatcher">Add to Cart</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="hoop-shop-card">
+          <div class="pearl-trim" aria-hidden="true"></div>
+          <div class="hoop-photo">
+            <img src="images/hoop-dhwani-dhruvil-2.jpg" alt="Close up wedding embroidery hoop with red lehenga fabric bride figure and February 2026 calendar" loading="lazy">
+            <span class="badge-tag">Handmade</span>
+          </div>
+          <div class="hoop-info">
+            <p class="craft-tag">Couple &amp; Wedding Hoop</p>
+            <h3>"For Life &amp; Beyond" Hoop</h3>
+            <div class="shop-card-footer">
+              <span class="craft-price">Price on request</span>
+              <button class="btn btn-primary btn-add-cart" data-product="For Life & Beyond Hoop">Add to Cart</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="hoop-shop-card">
+          <div class="pearl-trim" aria-hidden="true"></div>
+          <div class="hoop-photo">
+            <img src="images/hoop-vk-anniversary.jpg" alt="10th wedding anniversary embroidery hoop with rose wreath and calendar, V and K initials" loading="lazy">
+            <span class="badge-tag">Handmade</span>
+          </div>
+          <div class="hoop-info">
+            <p class="craft-tag">Anniversary Hoop</p>
+            <h3>10-Year Anniversary Hoop</h3>
+            <div class="shop-card-footer">
+              <span class="craft-price">Price on request</span>
+              <button class="btn btn-primary btn-add-cart" data-product="10-Year Anniversary Hoop">Add to Cart</button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SHOP GRID ===== -->
+  <div class="pearl-divider" aria-hidden="true">
+    <span class="pearl-divider-dot" style="--accent:var(--t-red)"></span>
+    <span class="pearl-divider-dot" style="--accent:var(--t-pink)"></span>
+    <span class="pearl-divider-dot" style="--accent:var(--t-gold)"></span>
+    <span class="pearl-divider-dot" style="--accent:var(--t-green)"></span>
+    <span class="pearl-divider-dot" style="--accent:var(--t-blue)"></span>
+    <span class="pearl-divider-dot" style="--accent:var(--t-plum)"></span>
+  </div>
+
+  <section class="shop-grid-section">
+    <div class="section-inner">
+      <p class="eyebrow" style="margin-bottom:6px;">Shop by Category</p>
+      <div class="shop-grid">
+
+        <article class="shop-card">
+          <div class="pearl-trim" aria-hidden="true"></div>
+          <div class="shop-card-img" aria-hidden="true">
+            <span class="badge-tag">Handmade</span>
+            <svg viewBox="0 0 80 80" width="60" height="60">
+              <circle cx="40" cy="40" r="26" fill="none" stroke="currentColor" stroke-width="1.4"/>
+              <circle cx="40" cy="40" r="18" fill="none" stroke="currentColor" stroke-width="1"/>
+              <path d="M25 25 L55 55 M30 50 Q40 30 55 32" stroke="currentColor" stroke-width="1" fill="none"/>
+            </svg>
+          </div>
+          <div class="shop-card-body">
+            <p class="craft-tag">Stitched / Thread</p>
+            <h3>Hand Embroidery Hoops</h3>
+            <p>Names, quotes, and small custom designs stitched by hand on a hoop, in the size that suits your idea.</p>
+            <div class="shop-card-footer">
+              <span class="craft-price">Price on request</span>
+              <button class="btn btn-primary btn-add-cart" data-product="Hand Embroidery Hoop">Add to Cart</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="shop-card">
+          <div class="pearl-trim" aria-hidden="true"></div>
+          <div class="shop-card-img" aria-hidden="true">
+            <span class="badge-tag">Handmade</span>
+            <svg viewBox="0 0 80 80" width="60" height="60">
+              <circle cx="40" cy="26" r="16" fill="none" stroke="currentColor" stroke-width="1.4"/>
+              <path d="M24 66 Q40 46 56 66" fill="none" stroke="currentColor" stroke-width="1.4"/>
+              <path d="M22 66 h36" stroke="currentColor" stroke-width="1"/>
+            </svg>
+          </div>
+          <div class="shop-card-body">
+            <p class="craft-tag">Stitched / Thread</p>
+            <h3>Couple &amp; Wedding Hoops</h3>
+            <p>A hand-stitched keepsake with your names and date, finished with tassels and a bow — a favourite for weddings and anniversaries.</p>
+            <div class="shop-card-footer">
+              <span class="craft-price">Price on request</span>
+              <button class="btn btn-primary btn-add-cart" data-product="Couple & Wedding Hoop">Add to Cart</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="shop-card">
+          <div class="pearl-trim" aria-hidden="true"></div>
+          <div class="shop-card-img" aria-hidden="true">
+            <span class="badge-tag">Handmade</span>
+            <svg viewBox="0 0 80 80" width="60" height="60">
+              <rect x="16" y="16" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.4"/>
+              <path d="M24 24 L56 56 M24 56 L56 24" stroke="currentColor" stroke-width="1"/>
+            </svg>
+          </div>
+          <div class="shop-card-body">
+            <p class="craft-tag">Stitched / Thread</p>
+            <h3>Name Embroidery Frames</h3>
+            <p>A framed piece with a name, initials, or short message stitched by hand — a simple, personal gift.</p>
+            <div class="shop-card-footer">
+              <span class="craft-price">Price on request</span>
+              <button class="btn btn-primary btn-add-cart" data-product="Name Embroidery Frame">Add to Cart</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="shop-card">
+          <div class="pearl-trim" aria-hidden="true"></div>
+          <div class="shop-card-img" aria-hidden="true">
+            <span class="badge-tag">Handmade</span>
+            <svg viewBox="0 0 80 80" width="60" height="60">
+              <path d="M40 12 L52 32 L40 52 L28 32 Z" fill="none" stroke="currentColor" stroke-width="1.4"/>
+              <path d="M20 62 h40 M26 68 h28" stroke="currentColor" stroke-width="1"/>
+            </svg>
+          </div>
+          <div class="shop-card-body">
+            <p class="craft-tag">Mud / Mirror Work</p>
+            <h3>Lippan Art</h3>
+            <p>Traditional mud-and-mirror relief work on fabric, framing memories in a craft rooted in Gujarat.</p>
+            <div class="shop-card-footer">
+              <span class="craft-price">Price on request</span>
+              <button class="btn btn-primary btn-add-cart" data-product="Lippan Art">Add to Cart</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="shop-card">
+          <div class="pearl-trim" aria-hidden="true"></div>
+          <div class="shop-card-img" aria-hidden="true">
+            <span class="badge-tag">Handmade</span>
+            <svg viewBox="0 0 80 80" width="60" height="60">
+              <circle cx="40" cy="30" r="16" fill="none" stroke="currentColor" stroke-width="1.4"/>
+              <path d="M28 44 L20 66 M34 46 L30 68 M46 46 L50 68 M52 44 L60 66" stroke="currentColor" stroke-width="1"/>
+            </svg>
+          </div>
+          <div class="shop-card-body">
+            <p class="craft-tag">Home Decor</p>
+            <h3>Dreamcatchers</h3>
+            <p>Hand-woven dreamcatchers finished with beads and thread, made to order in your choice of colours.</p>
+            <div class="shop-card-footer">
+              <span class="craft-price">Price on request</span>
+              <button class="btn btn-primary btn-add-cart" data-product="Dreamcatcher">Add to Cart</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="shop-card">
+          <div class="pearl-trim" aria-hidden="true"></div>
+          <div class="shop-card-img" aria-hidden="true">
+            <span class="badge-tag">Handmade</span>
+            <svg viewBox="0 0 80 80" width="60" height="60">
+              <path d="M22 20 h36 l-4 10 v30 h-28 v-30 Z" fill="none" stroke="currentColor" stroke-width="1.4"/>
+              <path d="M30 30 l4 4 l-4 4 M50 30 l-4 4 l4 4" stroke="currentColor" stroke-width="1"/>
+            </svg>
+          </div>
+          <div class="shop-card-body">
+            <p class="craft-tag">Fabric / Garment</p>
+            <h3>Custom Embroidered Clothing</h3>
+            <p>Shirts and fabric pieces personalised with hand embroidery — initials, small motifs, or a message stitched in.</p>
+            <div class="shop-card-footer">
+              <span class="craft-price">Price on request</span>
+              <button class="btn btn-primary btn-add-cart" data-product="Custom Embroidered Clothing">Add to Cart</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="shop-card">
+          <div class="pearl-trim" aria-hidden="true"></div>
+          <div class="shop-card-img" aria-hidden="true">
+            <span class="badge-tag">Handmade</span>
+            <svg viewBox="0 0 80 80" width="60" height="60">
+              <path d="M20 60 C20 40 30 20 40 20 C50 20 60 40 60 60" fill="none" stroke="currentColor" stroke-width="1.4"/>
+              <circle cx="40" cy="20" r="4" fill="currentColor"/>
+            </svg>
+          </div>
+          <div class="shop-card-body">
+            <p class="craft-tag">Pipe Cleaner Craft</p>
+            <h3>Pipe Cleaner Creations</h3>
+            <p>Playful hand-shaped pipe cleaner pieces — flowers, bouquets, and small decor made to brighten a gift.</p>
+            <div class="shop-card-footer">
+              <span class="craft-price">Price on request</span>
+              <button class="btn btn-primary btn-add-cart" data-product="Pipe Cleaner Creation">Add to Cart</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="shop-card">
+          <div class="pearl-trim" aria-hidden="true"></div>
+          <div class="shop-card-img" aria-hidden="true">
+            <span class="badge-tag">Handmade</span>
+            <svg viewBox="0 0 80 80" width="60" height="60">
+              <rect x="18" y="18" width="44" height="44" rx="4" fill="none" stroke="currentColor" stroke-width="1.4"/>
+              <path d="M28 40 h24 M40 28 v24" stroke="currentColor" stroke-width="1"/>
+            </svg>
+          </div>
+          <div class="shop-card-body">
+            <p class="craft-tag">Customised</p>
+            <h3>Custom Handmade Gifts</h3>
+            <p>Have something specific in mind? Tell us the occasion and idea, and we'll design a one-off piece around it.</p>
+            <div class="shop-card-footer">
+              <span class="craft-price">Price on request</span>
+              <button class="btn btn-primary btn-add-cart" data-product="Custom Handmade Gift">Add to Cart</button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <p class="shop-footnote">Prices vary by size, detail, and materials — DM us your idea and we'll quote you directly. Delivery across India; write in for international shipping.</p>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer-mega">
+  <div class="footer-top">
+    <div class="footer-brand-col">
+      <span class="footer-logo-circle" aria-hidden="true">
+        <svg viewBox="0 0 40 40" width="30" height="30">
+          <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="1.3" stroke-dasharray="2 3.5"/>
+          <path d="M13 22c2-6 5-9 7-9s5 3 7 9" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+          <circle cx="20" cy="14" r="2.2" fill="currentColor"/>
+        </svg>
+      </span>
+      <div class="footer-info-row">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s7-7.4 7-13a7 7 0 1 0-14 0c0 5.6 7 13 7 13Z"/><circle cx="12" cy="9" r="2.4"/></svg>
+        <span>Kalash Apartment, Tragad, Chandkheda, Ahmedabad, Gujarat 382424</span>
+      </div>
+      <div class="footer-info-row">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3.5 5.5c0-1 .8-1.8 1.8-1.8h2.1c.8 0 1.5.5 1.7 1.3l.9 3a1.8 1.8 0 0 1-.5 1.8L8 11.3a13 13 0 0 0 4.7 4.7l1.5-1.5a1.8 1.8 0 0 1 1.8-.5l3 .9c.8.2 1.3.9 1.3 1.7v2.1c0 1-.8 1.8-1.8 1.8C10.5 20.5 3.5 13.5 3.5 5.5Z"/></svg>
+        <span>DM us on Instagram &mdash; @handycraft_voyage</span>
+      </div>
+      <div class="footer-connect">
+        <span>Connect with us</span>
+        <a href="https://www.instagram.com/handycraft_voyage" target="_blank" rel="noopener" class="footer-social-btn" aria-label="HandyCraft Voyage on Instagram">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Help</h4>
+      <ul>
+        <li><a href="index.html#route">How It Works</a></li>
+        <li><a href="index.html#route">Hoop Size Guide</a></li>
+        <li><a href="index.html#route">Shipping &amp; Delivery</a></li>
+        <li><a href="https://www.instagram.com/handycraft_voyage" target="_blank" rel="noopener">Get in Touch</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Shop</h4>
+      <ul>
+        <li><a href="collection.html">Embroidery Hoops</a></li>
+        <li><a href="collection.html">Lippan Art</a></li>
+        <li><a href="collection.html">Dreamcatchers</a></li>
+        <li><a href="collection.html">Custom Gifts</a></li>
+        <li><a href="collection.html">View Full Collection</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="index.html#story">Our Story</a></li>
+        <li><a href="index.html#collection">The Collection</a></li>
+        <li><a href="index.html#route">The Route</a></li>
+        <li><a href="index.html#reviews">Reviews</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="footer-bottom-inner">
+      <div class="payment-row">
+        <span class="label">We accept</span>
+        <span class="payment-badge">UPI</span>
+        <span class="payment-badge">GPay</span>
+        <span class="payment-badge">Net Banking</span>
+        <span class="payment-badge">Cash on Delivery</span>
+      </div>
+      <p class="footer-tagline">&copy; 2026 HandyCraft Voyage &mdash; Handmade in Ahmedabad, always.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== FLOATING CONTACT BUTTON ===== -->
+<a href="https://www.instagram.com/handycraft_voyage" target="_blank" rel="noopener" class="float-contact" aria-label="DM us on Instagram">
+  <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor" stroke="none"/></svg>
+</a>
+
+<!-- ===== BACK TO TOP ===== -->
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+    <path d="M12 19V5 M5 12l7-7 7 7"/>
+  </svg>
+</button>
+
+<!-- ===== CART DRAWER ===== -->
+<div class="cart-overlay" id="cartOverlay"></div>
+<aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
+  <div class="cart-drawer-head">
+    <h3>Your Bag</h3>
+    <button class="cart-close" id="cartClose" aria-label="Close cart">&times;</button>
+  </div>
+  <div class="cart-drawer-body" id="cartItems">
+    <p class="cart-empty">Your bag is empty. Add a piece you like below.</p>
+  </div>
+  <div class="cart-drawer-foot">
+    <button class="btn btn-primary cart-checkout" id="cartCheckout">Checkout via Instagram DM</button>
+    <p class="cart-foot-note">We'll confirm design, size &amp; price with you over DM before making anything.</p>
+  </div>
+</aside>
+
+<script src="script.js"></script>
+</body>
+</html>
