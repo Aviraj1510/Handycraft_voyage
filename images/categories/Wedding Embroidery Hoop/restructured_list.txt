@@ -1,0 +1,50 @@
+﻿    "Wedding Embroidery Hoop": [
+      [
+        "images/categories/Wedding Embroidery Hoop/product 1/IMG_20251106_101439.jpg",
+        "images/categories/Wedding Embroidery Hoop/product 1/IMG_20251106_101555.jpg",
+        "images/categories/Wedding Embroidery Hoop/product 1/IMG_20251106_101726.jpg",
+        "images/categories/Wedding Embroidery Hoop/product 1/IMG_20251106_101741.jpg",
+        "images/categories/Wedding Embroidery Hoop/product 1/IMG_20251106_101857.jpg"
+      ],
+      [
+        "images/categories/Wedding Embroidery Hoop/Product 10/IMG_20260204_172925.jpg"
+      ],
+      [
+        "images/categories/Wedding Embroidery Hoop/Product 11/IMG_20260707_212824_142.jpg"
+      ],
+      [
+        "images/categories/Wedding Embroidery Hoop/product 2/1770573099422.png",
+        "images/categories/Wedding Embroidery Hoop/product 2/1770573146160.png",
+        "images/categories/Wedding Embroidery Hoop/product 2/1770573181087.png",
+        "images/categories/Wedding Embroidery Hoop/product 2/1770573230711.png",
+        "images/categories/Wedding Embroidery Hoop/product 2/1770573276555.png",
+        "images/categories/Wedding Embroidery Hoop/product 2/1770573395713.png"
+      ],
+      [
+        "images/categories/Wedding Embroidery Hoop/Product 3/IMG_20260131_165959.jpg",
+        "images/categories/Wedding Embroidery Hoop/Product 3/IMG_20260131_170134.jpg"
+      ],
+      [
+        "images/categories/Wedding Embroidery Hoop/Product 4/IMG_20260210_164309.jpg",
+        "images/categories/Wedding Embroidery Hoop/Product 4/IMG_20260214_004841_741.jpg"
+      ],
+      [
+        "images/categories/Wedding Embroidery Hoop/Product 5/IMG_20260307_161915.jpg",
+        "images/categories/Wedding Embroidery Hoop/Product 5/IMG_20260307_161925.jpg"
+      ],
+      [
+        "images/categories/Wedding Embroidery Hoop/Product 6/IMG_20251120_152925.jpg",
+        "images/categories/Wedding Embroidery Hoop/Product 6/IMG_20251123_191559.jpg",
+        "images/categories/Wedding Embroidery Hoop/Product 6/IMG_20251123_191606.jpg",
+        "images/categories/Wedding Embroidery Hoop/Product 6/IMG_20251123_194244.jpg"
+      ],
+      [
+        "images/categories/Wedding Embroidery Hoop/Product 7/file_00000000d7e4720680432a11f9f021a9.png"
+      ],
+      [
+        "images/categories/Wedding Embroidery Hoop/Product 8/IMG_20250725_144101_990.webp"
+      ],
+      [
+        "images/categories/Wedding Embroidery Hoop/Product 9/IMG_20250829_112625_766.webp"
+      ]
+    ],
