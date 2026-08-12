@@ -1,6 +1,6 @@
-$src = "C:\photo\Handycraft Voyage\Selected\Wedding Embrodory Hoop"
-$dest = "c:\photo\Hnadycraft voyage\images\categories\Wedding Embroidery Hoop"
-$catName = "Wedding Embroidery Hoop"
+$src = "C:\photo\Handycraft Voyage\Selected\Pipecleaner hair accecories"
+$dest = "c:\photo\Hnadycraft voyage\images\categories\Pipecleaner Hair Accessories"
+$catName = "Pipecleaner Hair Accessories"
 
 if (!(Test-Path $dest)) {
     New-Item -ItemType Directory -Path $dest | Out-Null

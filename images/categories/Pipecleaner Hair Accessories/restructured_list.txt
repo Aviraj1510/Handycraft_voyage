@@ -1,0 +1,53 @@
+﻿    "Pipecleaner Hair Accessories": [
+      [
+        "images/categories/Pipecleaner Hair Accessories/Product 1/IMG_20260716_172740.jpg",
+        "images/categories/Pipecleaner Hair Accessories/Product 1/IMG_20260716_172758.jpg",
+        "images/categories/Pipecleaner Hair Accessories/Product 1/IMG_20260721_163740.jpg"
+      ],
+      [
+        "images/categories/Pipecleaner Hair Accessories/Product 10/Screenshot_2026-07-16-00-24-43-556_com.instagram.android.jpg"
+      ],
+      [
+        "images/categories/Pipecleaner Hair Accessories/Product 11/Screenshot_2026-07-27-01-05-09-548_com.instagram.android.jpg"
+      ],
+      [
+        "images/categories/Pipecleaner Hair Accessories/Product 12/Screenshot_2026-08-07-14-42-09-691_com.instagram.android.jpg"
+      ],
+      [
+        "images/categories/Pipecleaner Hair Accessories/Product 13/Screenshot_2026-08-07-18-39-04-828_com.instagram.android.jpg"
+      ],
+      [
+        "images/categories/Pipecleaner Hair Accessories/Product 14/Screenshot_2026-08-07-19-28-22-800_com.instagram.android.jpg"
+      ],
+      [
+        "images/categories/Pipecleaner Hair Accessories/Product 15/Screenshot_2026-08-08-11-33-28-602_com.instagram.android.jpg"
+      ],
+      [
+        "images/categories/Pipecleaner Hair Accessories/Product 2/IMG_20260721_163808.jpg",
+        "images/categories/Pipecleaner Hair Accessories/Product 2/IMG_20260721_163817.jpg"
+      ],
+      [
+        "images/categories/Pipecleaner Hair Accessories/Product 3/IMG_20260721_163840.jpg",
+        "images/categories/Pipecleaner Hair Accessories/Product 3/IMG_20260721_163849.jpg"
+      ],
+      [
+        "images/categories/Pipecleaner Hair Accessories/Product 4/IMG_20260721_163901.jpg",
+        "images/categories/Pipecleaner Hair Accessories/Product 4/IMG_20260721_163916.jpg"
+      ],
+      [
+        "images/categories/Pipecleaner Hair Accessories/Product 5/IMG_20260721_163824.jpg",
+        "images/categories/Pipecleaner Hair Accessories/Product 5/IMG_20260721_163829.jpg"
+      ],
+      [
+        "images/categories/Pipecleaner Hair Accessories/Product 6/268a880351f6a9b48ab86bf007a5c2c2.jpg"
+      ],
+      [
+        "images/categories/Pipecleaner Hair Accessories/Product 7/13304e7734211231d6cf46d73f0c8595.jpg"
+      ],
+      [
+        "images/categories/Pipecleaner Hair Accessories/Product 8/InShot_20260714_143123779.jpg"
+      ],
+      [
+        "images/categories/Pipecleaner Hair Accessories/Product 9/Screenshot_2026-07-15-23-40-19-990_com.instagram.android.jpg"
+      ]
+    ],
