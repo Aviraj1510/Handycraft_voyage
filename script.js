@@ -262,3 +262,9 @@ const revealObserver = new IntersectionObserver((entries) => {
 
 document.querySelectorAll('.reveal-on-scroll').forEach(el => revealObserver.observe(el));
 
+
+// Automatically remove .html from URLs in the address bar for a cleaner look
+if (window.location.pathname.endsWith('.html')) {
+  let newUrl = window.location.pathname.replace(/\.html$/, '') + window.location.search + window.location.hash;
+  window.history.replaceState(null, '', newUrl);
+}
