@@ -67,7 +67,7 @@
         "images/categories/Wedding Embroidery Hoop/Product 9/IMG_20250829_112625_766.webp"
       ]
     ],
-    "Embrodary and pipe cleaner Raakhdi": [
+    "Embroidery and Pipe Cleaner Raakhdi": [
       "images/categories/Embrodary and pipe cleaner Raakhdi/064030f6e81560a6f9bf61cb757909e7.jpg",
       "images/categories/Embrodary and pipe cleaner Raakhdi/10f1d31c1315977c4e29d46c63bd0f94.jpg",
       "images/categories/Embrodary and pipe cleaner Raakhdi/12e66d3d38e46d858e056e0980d7902d.jpg",
@@ -85,36 +85,63 @@
       "images/categories/Embrodary and pipe cleaner Raakhdi/93bb6242070b7a83a002e386c536ab21.jpg",
       "images/categories/Embrodary and pipe cleaner Raakhdi/94d7eba17c7df39a58700c859419f711.jpg"
     ],
-    "Pipecleaner hair accecories": [
-      "images/categories/Pipecleaner hair accecories/13304e7734211231d6cf46d73f0c8595.jpg",
-      "images/categories/Pipecleaner hair accecories/268a880351f6a9b48ab86bf007a5c2c2.jpg",
-      "images/categories/Pipecleaner hair accecories/IMG_20260716_172740.jpg",
-      "images/categories/Pipecleaner hair accecories/IMG_20260716_172758.jpg",
-      "images/categories/Pipecleaner hair accecories/IMG_20260717_234055.jpg",
-      "images/categories/Pipecleaner hair accecories/IMG_20260721_163740.jpg",
-      "images/categories/Pipecleaner hair accecories/IMG_20260721_163808.jpg",
-      "images/categories/Pipecleaner hair accecories/IMG_20260721_163817.jpg",
-      "images/categories/Pipecleaner hair accecories/IMG_20260721_163824.jpg",
-      "images/categories/Pipecleaner hair accecories/IMG_20260721_163829.jpg",
-      "images/categories/Pipecleaner hair accecories/IMG_20260721_163840.jpg",
-      "images/categories/Pipecleaner hair accecories/IMG_20260721_163849.jpg",
-      "images/categories/Pipecleaner hair accecories/IMG_20260721_163901.jpg",
-      "images/categories/Pipecleaner hair accecories/IMG_20260721_163916.jpg",
-      "images/categories/Pipecleaner hair accecories/InShot_20260714_143123779.jpg",
-      "images/categories/Pipecleaner hair accecories/InShot_20260730_111512912.jpg",
-      "images/categories/Pipecleaner hair accecories/Screenshot_2026-07-15-23-40-19-990_com.instagram.android.jpg",
-      "images/categories/Pipecleaner hair accecories/Screenshot_2026-07-16-00-24-43-556_com.instagram.android.jpg",
-      "images/categories/Pipecleaner hair accecories/Screenshot_2026-07-27-01-05-09-548_com.instagram.android.jpg",
-      "images/categories/Pipecleaner hair accecories/Screenshot_2026-08-07-14-42-04-981_com.instagram.android.jpg",
-      "images/categories/Pipecleaner hair accecories/Screenshot_2026-08-07-14-42-09-691_com.instagram.android.jpg",
-      "images/categories/Pipecleaner hair accecories/Screenshot_2026-08-07-18-39-04-828_com.instagram.android.jpg",
-      "images/categories/Pipecleaner hair accecories/Screenshot_2026-08-07-19-28-22-800_com.instagram.android.jpg",
-      "images/categories/Pipecleaner hair accecories/Screenshot_2026-08-08-11-33-28-602_com.instagram.android.jpg"
+    "Pipecleaner Hair Accessories": [
+      [
+        "images/categories/Pipecleaner Hair Accessories/Product 1/IMG_20260716_172740.jpg",
+        "images/categories/Pipecleaner Hair Accessories/Product 1/IMG_20260716_172758.jpg",
+        "images/categories/Pipecleaner Hair Accessories/Product 1/IMG_20260721_163740.jpg"
+      ],
+      [
+        "images/categories/Pipecleaner Hair Accessories/Product 10/Screenshot_2026-07-16-00-24-43-556_com.instagram.android.jpg"
+      ],
+      [
+        "images/categories/Pipecleaner Hair Accessories/Product 11/Screenshot_2026-07-27-01-05-09-548_com.instagram.android.jpg"
+      ],
+      [
+        "images/categories/Pipecleaner Hair Accessories/Product 12/Screenshot_2026-08-07-14-42-09-691_com.instagram.android.jpg"
+      ],
+      [
+        "images/categories/Pipecleaner Hair Accessories/Product 13/Screenshot_2026-08-07-18-39-04-828_com.instagram.android.jpg"
+      ],
+      [
+        "images/categories/Pipecleaner Hair Accessories/Product 14/Screenshot_2026-08-07-19-28-22-800_com.instagram.android.jpg"
+      ],
+      [
+        "images/categories/Pipecleaner Hair Accessories/Product 15/Screenshot_2026-08-08-11-33-28-602_com.instagram.android.jpg"
+      ],
+      [
+        "images/categories/Pipecleaner Hair Accessories/Product 2/IMG_20260721_163808.jpg",
+        "images/categories/Pipecleaner Hair Accessories/Product 2/IMG_20260721_163817.jpg"
+      ],
+      [
+        "images/categories/Pipecleaner Hair Accessories/Product 3/IMG_20260721_163840.jpg",
+        "images/categories/Pipecleaner Hair Accessories/Product 3/IMG_20260721_163849.jpg"
+      ],
+      [
+        "images/categories/Pipecleaner Hair Accessories/Product 4/IMG_20260721_163901.jpg",
+        "images/categories/Pipecleaner Hair Accessories/Product 4/IMG_20260721_163916.jpg"
+      ],
+      [
+        "images/categories/Pipecleaner Hair Accessories/Product 5/IMG_20260721_163824.jpg",
+        "images/categories/Pipecleaner Hair Accessories/Product 5/IMG_20260721_163829.jpg"
+      ],
+      [
+        "images/categories/Pipecleaner Hair Accessories/Product 6/268a880351f6a9b48ab86bf007a5c2c2.jpg"
+      ],
+      [
+        "images/categories/Pipecleaner Hair Accessories/Product 7/13304e7734211231d6cf46d73f0c8595.jpg"
+      ],
+      [
+        "images/categories/Pipecleaner Hair Accessories/Product 8/InShot_20260714_143123779.jpg"
+      ],
+      [
+        "images/categories/Pipecleaner Hair Accessories/Product 9/Screenshot_2026-07-15-23-40-19-990_com.instagram.android.jpg"
+      ]
     ],
-    "Lippen art": [
+    "Lippan Art": [
       "images/categories/Lippen art/IMG_20260605_163104.jpg"
     ],
-    "Embrodary photo Frame hoop": [
+    "Embroidery Photo Frame Hoop": [
       "images/categories/Embrodary photo Frame hoop/182db6b695e251754db45db3a3669752.jpg",
       "images/categories/Embrodary photo Frame hoop/2b41910a1a975eee161c41dbeb5f5530.jpg",
       "images/categories/Embrodary photo Frame hoop/46a1afcd5b92380ffe285c7cc0a38d4d.jpg",
@@ -126,67 +153,86 @@
       "images/categories/Embrodary photo Frame hoop/f6bb2ef0fc2f038e5d8154de39e970a0.jpg",
       "images/categories/Embrodary photo Frame hoop/il_570xN.5536173996_1m1d.jpg"
     ],
-    "Embrodory on cloths": [
-      "images/categories/Embrodory on cloths/Product 1_DSCN5891.jpg",
-      "images/categories/Embrodory on cloths/Product 1_DSCN5892.jpg",
-      "images/categories/Embrodory on cloths/Product 1_DSCN5893.jpg",
-      "images/categories/Embrodory on cloths/Product 1_DSCN5903.jpg",
-      "images/categories/Embrodory on cloths/Product 1_DSCN5904.jpg",
-      "images/categories/Embrodory on cloths/Product 2_IMG_20260609_161652.jpg",
-      "images/categories/Embrodory on cloths/Product 2_IMG_20260611_130613.jpg",
-      "images/categories/Embrodory on cloths/Product 2_IMG_20260611_130900.jpg",
-      "images/categories/Embrodory on cloths/Product 2_IMG_20260611_130908.jpg",
-      "images/categories/Embrodory on cloths/Product 2_IMG_20260611_132057.jpg",
-      "images/categories/Embrodory on cloths/Product 2_IMG_20260628_134746.jpg",
-      "images/categories/Embrodory on cloths/Product 2_IMG_20260628_134800.jpg",
-      "images/categories/Embrodory on cloths/Product 3_IMG-20260730-WA0001.jpg",
-      "images/categories/Embrodory on cloths/Product 3_IMG-20260730-WA0018.jpg",
-      "images/categories/Embrodory on cloths/Product 3_IMG_20260730_170101.jpg",
-      "images/categories/Embrodory on cloths/Product 3_IMG_20260730_170120.jpg",
-      "images/categories/Embrodory on cloths/Product 3_IMG_20260730_170346.jpg",
-      "images/categories/Embrodory on cloths/Product 3_IMG_20260730_181657.jpg",
-      "images/categories/Embrodory on cloths/Product 3_IMG_20260730_182159.jpg",
-      "images/categories/Embrodory on cloths/Product 3_IMG_20260730_182213.jpg",
-      "images/categories/Embrodory on cloths/Product 3_IMG_20260730_182316.jpg",
-      "images/categories/Embrodory on cloths/Product 3_IMG_20260730_182337.jpg",
-      "images/categories/Embrodory on cloths/Product 3_IMG_20260730_190136.jpg"
+    "Embroidery on Clothes": [
+      [
+        "images/categories/Embroidery on Clothes/Product 1/DSCN5891.JPG",
+        "images/categories/Embroidery on Clothes/Product 1/DSCN5892.JPG",
+        "images/categories/Embroidery on Clothes/Product 1/DSCN5893.JPG",
+        "images/categories/Embroidery on Clothes/Product 1/DSCN5903.JPG",
+        "images/categories/Embroidery on Clothes/Product 1/DSCN5904.JPG"
+      ],
+      [
+        "images/categories/Embroidery on Clothes/Product 2/IMG_20260609_161652.jpg",
+        "images/categories/Embroidery on Clothes/Product 2/IMG_20260611_130613.jpg",
+        "images/categories/Embroidery on Clothes/Product 2/IMG_20260611_130900.jpg",
+        "images/categories/Embroidery on Clothes/Product 2/IMG_20260611_130908.jpg",
+        "images/categories/Embroidery on Clothes/Product 2/IMG_20260611_132057.jpg",
+        "images/categories/Embroidery on Clothes/Product 2/IMG_20260628_134746.jpg",
+        "images/categories/Embroidery on Clothes/Product 2/IMG_20260628_134800.jpg"
+      ],
+      [
+        "images/categories/Embroidery on Clothes/Product 3/IMG-20260730-WA0001.jpeg",
+        "images/categories/Embroidery on Clothes/Product 3/IMG-20260730-WA0018.jpeg",
+        "images/categories/Embroidery on Clothes/Product 3/IMG_20260730_170101.jpg",
+        "images/categories/Embroidery on Clothes/Product 3/IMG_20260730_170120.jpg",
+        "images/categories/Embroidery on Clothes/Product 3/IMG_20260730_170346.jpg",
+        "images/categories/Embroidery on Clothes/Product 3/IMG_20260730_181657.jpg",
+        "images/categories/Embroidery on Clothes/Product 3/IMG_20260730_182159.jpg",
+        "images/categories/Embroidery on Clothes/Product 3/IMG_20260730_182213.jpg",
+        "images/categories/Embroidery on Clothes/Product 3/IMG_20260730_182316.jpg",
+        "images/categories/Embroidery on Clothes/Product 3/IMG_20260730_182337.jpg",
+        "images/categories/Embroidery on Clothes/Product 3/IMG_20260730_190136.jpg"
+      ]
     ],
-    "Embrodory on hoop": [
-      "images/categories/Embrodory on hoop/DSCN5914.jpg",
-      "images/categories/Embrodory on hoop/DSCN5916.jpg",
-      "images/categories/Embrodory on hoop/DSCN5921.jpg",
-      "images/categories/Embrodory on hoop/DSCN5925.jpg",
-      "images/categories/Embrodory on hoop/DSCN5941.jpg"
+    "Embroidery on Bag": [
+      [
+        "images/categories/Embroidery on Bag/Product 1/DSCN5914.JPG",
+        "images/categories/Embroidery on Bag/Product 1/DSCN5916.JPG",
+        "images/categories/Embroidery on Bag/Product 1/DSCN5921.JPG",
+        "images/categories/Embroidery on Bag/Product 1/DSCN5925.JPG",
+        "images/categories/Embroidery on Bag/Product 1/DSCN5941.JPG"
+      ]
     ],
-    "Beby footprint ambrodory": [
-      "images/categories/Beby footprint ambrodory/Product 1_IMG_20260313_165100.jpg",
-      "images/categories/Beby footprint ambrodory/Product 1_IMG_20260313_170619.jpg",
-      "images/categories/Beby footprint ambrodory/Product 1_Screenshot_2026-03-25-22-44-28-093_com.google.android.googlequicksearchbox-edit.jpg"
+    "Baby Footprint Embroidery": [
+      [
+        "images/categories/Baby Footprint Embroidery/Product 1/IMG_20260313_165100.jpg",
+        "images/categories/Baby Footprint Embroidery/Product 1/IMG_20260313_170619.jpg",
+        "images/categories/Baby Footprint Embroidery/Product 1/Screenshot_2026-03-25-22-44-28-093_com.google.android.googlequicksearchbox-edit.jpg"
+      ]
     ]
   };
 
-  const tabsContainer = document.getElementById('category-tabs');
+  const circleTabsContainer = document.getElementById('category-circle-tabs');
   const gridContainer = document.getElementById('dynamic-grid');
+  const currentCategoryTitle = document.getElementById('current-category-title');
   
   // Lightbox State
   let currentLightboxImages = [];
   let currentLightboxIndex = 0;
   
   function renderCategories() {
-    if (!tabsContainer || !gridContainer) return;
+    if (!circleTabsContainer || !gridContainer) return;
     const categories = Object.keys(categoriesData);
     if (categories.length === 0) return;
     
     categories.forEach((cat, index) => {
-      const btn = document.createElement('button');
-      btn.className = 'category-tab' + (index === 0 ? ' active' : '');
-      btn.textContent = cat;
+      const items = categoriesData[cat];
+      const firstItem = items[0];
+      const imgPath = Array.isArray(firstItem) ? firstItem[0] : firstItem;
+      
+      const btn = document.createElement('a');
+      btn.className = 'pop-cat-circle' + (index === 0 ? ' active' : '');
+      btn.href = 'javascript:void(0)';
+      btn.innerHTML = `
+        <div class="circle-img-wrap"><img src="${imgPath}" alt="${cat}" loading="lazy"></div>
+        <span class="circle-title">${cat}</span>
+      `;
       btn.onclick = () => {
-        document.querySelectorAll('.category-tab').forEach(t => t.classList.remove('active'));
+        document.querySelectorAll('.pop-cat-circle').forEach(t => t.classList.remove('active'));
         btn.classList.add('active');
         renderGrid(cat);
       };
-      tabsContainer.appendChild(btn);
+      circleTabsContainer.appendChild(btn);
     });
     
     // Render first category initially
@@ -195,9 +241,13 @@
   
   function renderGrid(category) {
     gridContainer.innerHTML = '';
+    if(currentCategoryTitle) {
+      currentCategoryTitle.textContent = category;
+      currentCategoryTitle.style.display = 'block';
+    }
+    
     const items = categoriesData[category];
     items.forEach(item => {
-      // Determine if item is an array of images or a single image string
       const isArray = Array.isArray(item);
       const firstImage = isArray ? item[0] : item;
       const imagesArray = isArray ? item : [item];
@@ -205,6 +255,7 @@
       
       const card = document.createElement('article');
       card.className = 'dynamic-card';
+      
       card.innerHTML = `
         <div class="dynamic-card-img-wrapper" style="position: relative; cursor: pointer;">
           <img src="${firstImage}" alt="${category}" loading="lazy">
@@ -219,7 +270,6 @@
       `;
       
       card.querySelector('.dynamic-card-img-wrapper').addEventListener('click', () => openLightbox(imagesArray));
-      
       gridContainer.appendChild(card);
     });
   }
@@ -257,7 +307,7 @@
     const nextBtn = document.getElementById('lightboxNext');
     
     imgEl.src = currentLightboxImages[currentLightboxIndex];
-    counterEl.textContent = \`\${currentLightboxIndex + 1} / \${currentLightboxImages.length}\`;
+    counterEl.textContent = `${currentLightboxIndex + 1} / ${currentLightboxImages.length}`;
     
     if (currentLightboxImages.length <= 1) {
       prevBtn.style.display = 'none';
@@ -270,5 +320,5 @@
     }
   }
 
-  document.addEventListener('DOMContentLoaded', renderCategories);
+  document.addEventListener('DOMContentLoaded', renderAll);
 
