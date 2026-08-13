@@ -1,4 +1,4 @@
-// Mobile nav toggle
+﻿// Mobile nav toggle
 const navToggle = document.getElementById('navToggle');
 const navLinks = document.querySelector('.nav-links');
 
@@ -15,7 +15,7 @@ navLinks.querySelectorAll('a').forEach(link => {
   });
 });
 
-// Contact form — front-end only placeholder (only present on index.html).
+// Contact form â€” front-end only placeholder (only present on index.html).
 // Replace this handler with a real request to your backend or a form service
 // (e.g. Formspree, Netlify Forms) when you're ready to receive submissions.
 const contactForm = document.getElementById('contactForm');
@@ -24,14 +24,14 @@ const formNote = document.getElementById('formNote');
 if (contactForm) {
   contactForm.addEventListener('submit', (e) => {
     e.preventDefault();
-    formNote.textContent = 'Thanks — this form is not yet connected to an inbox. Add a form service to start receiving messages.';
+    formNote.textContent = 'Thanks â€” this form is not yet connected to an inbox. Add a form service to start receiving messages.';
     contactForm.reset();
   });
 }
 
 // ===== CART SYSTEM =====
 // Cart lives in localStorage so it persists across pages (index.html / collection.html)
-// on the same live site. No payment happens here — checkout hands off to Instagram DM.
+// on the same live site. No payment happens here â€” checkout hands off to Instagram DM.
 const CART_KEY = 'hcv_cart';
 
 function getCart() {
@@ -47,7 +47,7 @@ function saveCart(cart) {
   try {
     localStorage.setItem(CART_KEY, JSON.stringify(cart));
   } catch (err) {
-    // Storage can fail in some browser contexts — cart just won't persist.
+    // Storage can fail in some browser contexts â€” cart just won't persist.
   }
 }
 
@@ -81,7 +81,7 @@ function renderCart() {
   cartCountEl.style.display = totalQty > 0 ? 'flex' : 'none';
 
   if (cart.length === 0) {
-    cartItemsEl.innerHTML = '<p class="cart-empty">Your bag is empty. Add a piece you like from the <a href="collection.html">collection</a>.</p>';
+    cartItemsEl.innerHTML = '<p class="cart-empty">Your bag is empty. Add a piece you like from the <a href="collection">collection</a>.</p>';
     return;
   }
 
@@ -131,15 +131,15 @@ if (cartCheckout) {
   cartCheckout.addEventListener('click', async () => {
     const cart = getCart();
     if (cart.length === 0) return;
-    const lines = cart.map(item => `• ${item.name} x${item.qty}`).join('\n');
+    const lines = cart.map(item => `â€¢ ${item.name} x${item.qty}`).join('\n');
     const message = `Hi! I'd like to order:\n${lines}`;
     try {
       await navigator.clipboard.writeText(message);
       const original = cartCheckout.textContent;
-      cartCheckout.textContent = 'Message copied — opening Instagram…';
+      cartCheckout.textContent = 'Message copied â€” opening Instagramâ€¦';
       setTimeout(() => { cartCheckout.textContent = original; }, 2500);
     } catch (err) {
-      // Clipboard can fail silently — Instagram still opens below.
+      // Clipboard can fail silently â€” Instagram still opens below.
     }
     window.open('https://www.instagram.com/handycraft_voyage', '_blank', 'noopener');
   });
@@ -151,7 +151,7 @@ document.querySelectorAll('.btn-add-cart').forEach(btn => {
     const product = btn.dataset.product || 'Item';
     addToCart(product);
     const original = btn.textContent;
-    btn.textContent = 'Added ✓';
+    btn.textContent = 'Added âœ“';
     btn.classList.remove('added');
     void btn.offsetWidth;
     btn.classList.add('added');
@@ -167,10 +167,10 @@ document.querySelectorAll('.btn-buy').forEach(btn => {
     try {
       await navigator.clipboard.writeText(message);
       const original = btn.textContent;
-      btn.textContent = 'Message copied — paste in DM';
+      btn.textContent = 'Message copied â€” paste in DM';
       setTimeout(() => { btn.textContent = original; }, 2500);
     } catch (err) {
-      // Clipboard access can fail — the DM still opens normally.
+      // Clipboard access can fail â€” the DM still opens normally.
     }
   });
 });
@@ -261,3 +261,4 @@ const revealObserver = new IntersectionObserver((entries) => {
 }, { threshold: 0.15 });
 
 document.querySelectorAll('.reveal-on-scroll').forEach(el => revealObserver.observe(el));
+
